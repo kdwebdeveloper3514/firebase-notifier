@@ -74,7 +74,7 @@ export const ToastifyNotification: React.FC<ToastifyNotificationProps> = ({ titl
 /**
  * Generates a random three-digit number.
  */
-function generateRandom3DigitNumber(): number {
+export function generateRandom3DigitNumber(): number {
     return Math.floor(Math.random() * 900) + 100;
 }
 
